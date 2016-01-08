@@ -5,9 +5,9 @@ class H_Bridge{
         void stop();
         void start(int derection);
         void start(int derection, int speed);
-        static const int FORWARD = 1;
-        static const int BACK = -1;
-        static const int STOP = 0;
+        static const int FORWARD;
+        static const int BACK;
+        static const int STOP;
     private:
         int IN1;
         int IN2;

@@ -1,6 +1,10 @@
 #include <Arduino.h>
 #include <H_Bridge.h>
 
+
+const int H_Bridge::FORWARD = 1;
+const int H_Bridge::BACK = 0;
+const int H_Bridge::STOP = -1;
 //set the paramiters to where pins are located.
 //set all 3 pins to output
 H_Bridge::H_Bridge(int IN1, int IN2, int EN){
